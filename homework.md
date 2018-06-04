@@ -136,8 +136,36 @@ id |                title                | year | show_time
  17 | Spider-Man: Homecoming              | 2017 | 13:50
  18 | Thor: Ragnarok                      | 2017 | 14:40
  19 | Black Panther                       | 2018 | 15:00
- 
+
 6.  Create a new entry in the 'people' table with the name of one of the instructors.
+
+INSERT INTO people (name) VALUES ('John Harper');
+
+id |           name            
+----+---------------------------
+  1 | Shaun   Adams
+  2 | James   Amos
+  3 | Lee     Burgess
+  4 | Stuart  Charters
+  5 | Wil     Cornish
+  6 | Gregor  Cox
+  7 | Chris   Craig
+  8 | Gabriel González Villalba
+  9 | James   Henderson
+ 10 | Edward  Kinley
+ 11 | Magdalena       Kisala
+ 12 | Emily Milne
+ 13 | Iona    Macbeth
+ 14 | Gary    Muir
+ 15 | Helen   Oshea
+ 16 | David   Pears
+ 18 | Benjamin        Robinson
+ 19 | Stephen Rooney
+ 20 | Can     Toraman
+ 21 | Daniel  Warren
+ 22 | John Harper
+ 17 | Jesus Perez
+
 7.  Emily Milne has decided to hijack our movie evening, Remove her from the table of people.
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
 9.  The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
