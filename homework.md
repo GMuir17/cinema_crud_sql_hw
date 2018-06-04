@@ -47,8 +47,35 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
  17 | Spider-Man: Homecoming              | 2017 | 13:50
  18 | Thor: Ragnarok                      | 2017 | 14:40
  19 | Black Panther                       | 2018 | 15:00
- 
+
 2.  Return ONLY the name column from the 'people' table
+
+SELECT name FROM people;
+
+name            
+---------------------------
+Shaun   Adams
+James   Amos
+Lee     Burgess
+Stuart  Charters
+Wil     Cornish
+Gregor  Cox
+Chris   Craig
+Gabriel González Villalba
+James   Henderson
+Edward  Kinley
+Magdalena       Kisala
+Emily Milne
+Iona    Macbeth
+Gary    Muir
+Helen   Oshea
+David   Pears
+Jezuz   Perez
+Benjamin        Robinson
+Stephen Rooney
+Can     Toraman
+Daniel  Warren
+
 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
 4.  Return ONLY your name from the 'people' table.
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
