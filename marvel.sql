@@ -53,6 +53,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2',
 INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 2017, '13:50');
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '14:40');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:00');
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 
 UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
 
@@ -60,7 +61,7 @@ DELETE FROM movies WHERE title = 'Batman Begins';
 
 DELETE FROM people where name = 'Emily Milne';
 
--- SELECT * FROM movies;
+SELECT * FROM movies;
 -- SELECT name FROM people;
 -- SELECT name FROM people WHERE id = 14;
-SELECT * FROM people;
+-- SELECT * FROM people;
