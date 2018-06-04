@@ -61,7 +61,9 @@ UPDATE movies SET show_time = '21:05' WHERE title = 'Guardians of the Galaxy 2';
 
 DELETE FROM movies WHERE title = 'Batman Begins';
 
-DELETE FROM people where name = 'Emily Milne';
+DELETE FROM people WHERE name = 'Emily Milne';
+
+DELETE FROM movies WHERE id BETWEEN 1 AND 5;
 
 SELECT * FROM movies;
 -- SELECT name FROM people;

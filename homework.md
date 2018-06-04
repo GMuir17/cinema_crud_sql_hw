@@ -168,7 +168,7 @@ id |           name
 
 7.  Emily Milne has decided to hijack our movie evening, Remove her from the table of people.
 
-DELETE FROM people where name = 'Emily Milne';
+DELETE FROM people WHERE name = 'Emily Milne';
 
 id |           name            
 ----+---------------------------
@@ -249,3 +249,22 @@ id |                title                | year | show_time
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM movies WHERE id BETWEEN 1 AND 5;
+
+id |                title                | year | show_time
+----+-------------------------------------+------+-----------
+  6 | Avengers Assemble                   | 2012 | 13:25
+  7 | Iron Man 3                          | 2013 | 23:15
+  8 | Thor: The Dark World                | 2013 | 16:50
+ 10 | Captain America: The Winter Soldier | 2014 | 14:55
+ 11 | Guardians of the Galaxy             | 2014 | 19:05
+ 12 | Avengers: Age of Ultron             | 2015 | 17:45
+ 13 | Ant-Man                             | 2015 | 16:30
+ 14 | Captain America: Civil War          | 2016 | 16:00
+ 15 | Doctor Strange                      | 2016 | 16:10
+ 17 | Spider-Man: Homecoming              | 2017 | 13:50
+ 18 | Thor: Ragnarok                      | 2017 | 14:40
+ 19 | Black Panther                       | 2018 | 15:00
+ 20 | Avengers: Infinity War              | 2018 | 00:00
+ 16 | Guardians of the Galaxy 2           | 2017 | 21:05
