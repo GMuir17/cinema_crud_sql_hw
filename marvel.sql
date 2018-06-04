@@ -58,6 +58,8 @@ UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
 
 DELETE FROM movies WHERE title = 'Batman Begins';
 
+DELETE FROM people where name = 'Emily Milne';
+
 -- SELECT * FROM movies;
 -- SELECT name FROM people;
 -- SELECT name FROM people WHERE id = 14;
